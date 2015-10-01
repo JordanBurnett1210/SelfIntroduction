@@ -24,6 +24,14 @@
             android:name=".SchoolScreen"
             android:label="@string/title_activity_school_screen" >
         </activity>
+        <activity
+            android:name=".FutureScreen"
+            android:label="@string/title_activity_future_screen" >
+        </activity>
+        <activity
+            android:name=".HobbiesScreen"
+            android:label="@string/title_activity_hobbies_screen" >
+        </activity>
     </application>
 
 </manifest>

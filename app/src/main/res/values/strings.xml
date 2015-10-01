@@ -4,4 +4,5 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_food_screen">Food Screen</string>
+    <string name="title_activity_school_screen">School Screen</string>
 </resources>

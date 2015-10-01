@@ -5,9 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.widget.TextView;
 import android.content.Intent;
-import android.widget.RelativeLayout;
 import android.view.View;
 
 public class HomeScreen extends ActionBarActivity
@@ -58,7 +56,7 @@ public class HomeScreen extends ActionBarActivity
         return super.onOptionsItemSelected(item);
     }
 
-    private void sestupListeners()
+    private void setupListeners()
     {
         Food.setOnClickListener(new View.OnClickListener()
         {
@@ -73,7 +71,7 @@ public class HomeScreen extends ActionBarActivity
         {
             public void onClick(View buttonView)
             {
-                Intent myIntent = new Intent(buttonView.getContext(), FoodScreen.class);
+                Intent myIntent = new Intent(buttonView.getContext(), SchoolScreen.class);
                 startActivityForResult(myIntent, 0);
             }
         });

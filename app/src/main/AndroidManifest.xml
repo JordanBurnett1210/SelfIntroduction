@@ -20,6 +20,10 @@
             android:name=".FoodScreen"
             android:label="@string/title_activity_food_screen" >
         </activity>
+        <activity
+            android:name=".SchoolScreen"
+            android:label="@string/title_activity_school_screen" >
+        </activity>
     </application>
 
 </manifest>

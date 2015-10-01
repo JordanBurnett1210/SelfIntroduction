@@ -9,12 +9,12 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="I enjoy a great variety of food. I would have to say that my favorite food is cheesecake.  If you were to say that cheesecake is a dessert, and does not count, I would have to say chicken cordon bleu is my favorite food. But raspberry cheesecake."
         android:id="@+id/textView"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="116dp" />
+        android:layout_marginBottom="116dp"
+        android:text="Other than my CTEC classes, I am taking BC calculous, AP human government, AP literature, and ceramics. (Vector=Calculous... get it?) I hate my homework load." />
 
     <Button
         android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
+        android:id="@+id/cheesecake"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

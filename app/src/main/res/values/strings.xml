@@ -7,4 +7,5 @@
     <string name="title_activity_school_screen">School Screen</string>
     <string name="title_activity_future_screen">Future Screen</string>
     <string name="title_activity_hobbies_screen">Hobbies Screen</string>
+    <string name="title_activity_family_screen">Family Screen</string>
 </resources>

@@ -32,6 +32,10 @@
             android:name=".HobbiesScreen"
             android:label="@string/title_activity_hobbies_screen" >
         </activity>
+        <activity
+            android:name=".FamilyScreen"
+            android:label="@string/title_activity_family_screen" >
+        </activity>
     </application>
 
 </manifest>

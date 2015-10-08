@@ -72,7 +72,7 @@ public class HomeScreen extends ActionBarActivity
             public void onClick(View buttonView)
             {
                 Intent myIntent = new Intent(buttonView.getContext(), SchoolScreen.class);
-                startActivityForResult(myIntent, 0);
+                startActivityForResult(myIntent, 1);
             }
         });
 
@@ -80,15 +80,15 @@ public class HomeScreen extends ActionBarActivity
         {
             public void onClick(View buttonView)
             {
-                Intent myIntent = new Intent(buttonView.getContext(), FoodScreen.class);
-                startActivityForResult(myIntent, 0);
+                Intent myIntent = new Intent(buttonView.getContext(), FutureScreen.class);
+                startActivityForResult(myIntent, 2);
             }
         });
 
         Hobbies.setOnClickListener(new View.OnClickListener() {
             public void onClick(View buttonView) {
-                Intent myIntent = new Intent(buttonView.getContext(), FoodScreen.class);
-                startActivityForResult(myIntent, 0);
+                Intent myIntent = new Intent(buttonView.getContext(), HobbiesScreen.class);
+                startActivityForResult(myIntent, 3);
             }
         });
 
@@ -96,8 +96,8 @@ public class HomeScreen extends ActionBarActivity
         {
             public void onClick(View buttonView)
             {
-                Intent myIntent = new Intent(buttonView.getContext(), FoodScreen.class);
-                startActivityForResult(myIntent, 0);
+                Intent myIntent = new Intent(buttonView.getContext(), FamilyScreen.class);
+                startActivityForResult(myIntent, 4);
             }
         });
     }
